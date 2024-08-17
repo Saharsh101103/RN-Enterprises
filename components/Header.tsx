@@ -26,7 +26,7 @@ export default function Header() {
           className="font-bold hover:underline"
           rel="noreferrer"
         >
-          Supabase
+          Chabi
         </a>{" "}
         and{" "}
         <a
