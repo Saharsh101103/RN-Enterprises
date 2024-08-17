@@ -1,10 +1,9 @@
 "use client"
-import Hero from '../components/Hero';
-import Services from '../components/Services';
-import Testimonial from '../components/Testimonial';
-import Footer from '../components/Footer';
 import Body from '@/components/Body';
 import Expert from '@/components/Expert';
+import Hero from '@/components/Hero';
+import Services from '@/components/Services';
+import Testimonial from '@/components/Testimonial';
 import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
 

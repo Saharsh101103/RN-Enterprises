@@ -1,5 +1,5 @@
 import { GeistSans } from "geist/font/sans";
-import "./globals.css";
+import "@/app/globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
@@ -13,7 +13,7 @@ export const metadata = {
   description: "The fastest way to build apps with Next.js and Supabase",
 };
 
-export default function RootLayout({
+export default function Layout({
   children,
 }: {
   children: React.ReactNode;
@@ -21,11 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={GeistSans.className}>
       <body className="bg-background text-foreground">
-        <main className="">
-          <Nav/>
-          {children}
-          <Footer/>
-        </main>
+        <main className="">{children}</main>
       </body>
     </html>
   );
